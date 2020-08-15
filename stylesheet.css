@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+
+.Toppage {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.75);
+    top: 5px;
+}
+.topdivimg {
+    width: 45%;
+}
+.logo {
+    width: 15%;
+    border-radius: 70%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+h1 {
+    display: inline;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    width: auto;
+    position: absolute;
+    margin-top: 40px;
+    color: white;
+}
+nav {
+    
+}
+ul { 
+    margin-left: 28px;
+    margin-top: 7%;
+}
+li {
+    display: inline;
+    font-size: 18px ;
+    padding: 15px;
+     
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#contact {
+    background-color:  #b2d338;
+}
+
+/* -----------------------HEADER-----------------*/
+
+header {
+    margin-top: 140px;
+    width: 100%;
+    padding-bottom: 2%;
+    background-image: url(img/Colombian_coffee2.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.serve{
+    margin-top: 21%;
+    background-color: (0, 0, 0, 0.50);
+    text-align: right;
+    border-radius: 10px;
+}
+h2 {
+    font-size: 4rem;
+    color: ivory;
+}
+.para { 
+    font-family: ;
+    font-size: 2.5rem;
+    font-weight: normal;
+    left: 0.1em;
+    color: white;
+    
+}
+
+/*----------------------SERVICIOS------------------------*/
+
+
+.servicios {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    border-top: 5px solid lemonchiffon;
+}
+
+.div-servicio {
+   width: 50%;
+   background-color:rgba(0, 0, 0, 0.90);
+   padding-bottom: 7%;
+}  
+.div-servicio-2 {
+    background-image: url("img/blade-blur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%; 
+}
+.div-servicio img {
+    width: 50%;
+    height:auto;
+}
+
+.div-servicio h2 {
+    margin: 8% 2% 2% 8%;
+}
+
+.div-servicio h3 {
+    padding: 3% 10% 2%;
+    font-weight: bold;
+    color: #b2d338;
+}
+.div-servicio p {
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: auto;
+    line-height: 0.90cm;
+}
+
+.div-servicio-2 div {
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    background-image: url("img/computer-screen.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+video {
+    width: 92%;
+    height: auto;
+    margin: 4.6% 4.1%;
+    padding: 1;
+    background-color: black;
+}
+
+
+
+
+/*----------------------Nuestros Servicios-----------------------*/
+
+#Nuestro-servicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     background-color: white;
+     padding-top: 5%;
+     padding-bottom: 6%;
+}
+.assistance {
+    width: 60%;
+    background-color: white;
+    display: flex;
+}
+.assistance img {
+    width: 50%;
+    height: auto;
+    margin: 120px 24px 32px 24px;
+    border-radius: 10px;
+}
+.assistance p {
+    margin-top: 10%;
+    margin-left: 70px;
+    width: 25%;
+    height: 400px;
+    border-bottom: 1px solid black;
+    line-height: 0.80cm;
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.assistance span {
+    font-size: 3rem;
+    font-weight: 800 ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #b2d338;
+}
+
+.assistance-2 {
+    width: 40%;
+    margin-top: 8%;
+}
+.assistance-divs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 24px;
+    height: auto;
+    
+}
+
+.assistance-divs img {
+    width: 50%;
+    height: auto;
+    margin: 16px 16px;
+    border-radius: 5px;
+}
+.assistance-divs p {
+    width: 30%;
+    margin: 16px 16px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-------------------------------Nuestros-productos----------------------------*/
+
+
+#Nuestros-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:  #b2d338;
+    padding-top: 10%;
+    padding-bottom: 6%;
+    text-align: center;
+}
+.h2-productos {
+  font-size: 3rem;
+  width: 80%;
+  color: white;
+  margin: auto;
+  margin-bottom: 3%;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.semillas, 
+.herramientas,
+.quimicos,
+.motor-guadana,
+.abonos,
+.despulpadora {
+    margin: 0 16px 32px 16px;
+    width: 30%;
+    height: 400px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.semillas {
+    background-image: url("img/semillas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.herramientas {
+    background-image: url("img/palas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quimicos {
+    background-image: url("img/bottles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.motor-guadana {
+    background-image: url("img/motor-scythe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abonos {
+    background-image: url("img/abonos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.despulpadora {
+    background-image: url("img/DESPULPADORA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.N-produc-div {
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 80%;
+    height: 90%;
+    margin:auto;
+    text-align: left;
+}
+
+.N-produc-div li {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 20px;
+    width: 100px;
+    list-style: square;
+    padding: 20px;
+}
+
+
+
+.N-produc-div ul {
+    padding-top: 25%;
+}
